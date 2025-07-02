@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        @import url();
+         @import url('https://fonts.googleapis.com/css2family=Montserrat:wqht@200;500@display=swap');
         * {
            margin: 0;
            padding: 0;
