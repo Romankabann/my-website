@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-         @import url('https://fonts.googleapis.com/css2family=Montserrat:wqht@200;500@display=swap');
+        @import url('https://fonts.googleapis.com/css2family=Montserrat:wqht@200;500@display=swap');
         * {
            margin: 0;
            padding: 0;
@@ -57,6 +57,25 @@
             color: var(--tg--there-button-color);
             background: var(--tg--there-button-text-color);
         }
+
+        #form {
+            display: none;
+            text-align: center;
+        }
+
+        input {
+            width: 90%;
+            outline: none;
+            margin: 18px 5%;
+            padding: 15px 13px;
+            font-size: 14px;
+            border: 2px solid silver;
+            border-radius: 5px;
+        }
+
+        input:focus {
+            border-color: #db5ddb;
+        }
     </style>
 </head>
 <body>
@@ -67,8 +86,13 @@
         <button id="buy">Купить</button>
 
     </div>
+    <form id="form">
+        <input type="text" placeholder="Имя" id="user_name">
+        <input type="text" placeholder="Email" id="user_name">
+        <input type="text" placeholder="Телефон" id="user_name">
+        <button id="order">Оформить</button>
+    </form>
     <script src="https://telegram.org/js/telegram-web-app.js?57"></script>
 </body>
 </html>
 
- 
