@@ -106,7 +106,7 @@
         });
         order.addEventListener("click", () => {
         
-        });
+        
         document.getElementById("error").innerText = '';
         let name = document.getElementById('user_name').value;
         let email =document.getElementById('user_email').value;
@@ -131,4 +131,7 @@
         }
         tg.sendData(JSON.stringify(data));
         tg.close()
+    });
     </script>
+</body>
+</html>
